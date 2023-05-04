@@ -1,15 +1,10 @@
- {
-  "name": "fabric",
+{
+  "name": "@eltongarbin/fabric",
+  "private": false,
   "description": "Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.",
   "homepage": "http://fabricjs.com/",
-  "version": "1.7.22",
-  "author": "Juriy Zaytsev <kangax@gmail.com>",
-  "contributors": [
-    {
-      "name": "Andrea Bogazzi",
-      "email": "andreabogazzi79@gmail.com"
-    }
-  ],
+  "version": "1.1.0",
+  "author": "Elton Garbin <eltongarbin@gmail.com>",
   "keywords": [
     "canvas",
     "graphic",
@@ -20,18 +15,18 @@
     "HTML5",
     "object model"
   ],
-  "browser" : {
+  "browser": {
     "canvas": false,
-    "fs":      false,
-    "jsdom":   false,
-    "xmldom":  false
+    "fs": false,
+    "jsdom": false,
+    "xmldom": false
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kangax/fabric.js"
+    "url": "https://github.com/eltongarbin/fabric.js"
   },
   "bugs": {
-    "url": "https://github.com/kangax/fabric.js/issues"
+    "url": "https://github.com/eltongarbin/fabric.js/issues"
   },
   "license": "MIT",
   "scripts": {
@@ -47,8 +42,8 @@
     "all": "npm run build && npm run test && npm run lint && npm run lint_tests && npm run export_dist_to_site && npm run export_tests_to_site"
   },
   "optionalDependencies": {
-    "canvas": "1.6.x",
-    "jsdom": "3.x.x",
+    "canvas": "2.0.x",
+    "jsdom": "4.x.x",
     "xmldom": "0.1.x"
   },
   "devDependencies": {
